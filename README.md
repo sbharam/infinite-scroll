@@ -1,6 +1,20 @@
-# RedditInfoApp
+# RedditInfoApp Project Summary
+
+Used the Reddit API to query r/aww and implement infinite scrolling with a list of results. On initial page load, the app will automatically retrieve the first 25 records.
+When you scroll to the end of the list, load 25 more records. Each list item display the title, thumbnail if available, and the original subreddit name. Clicking the title should navigate to the original reddit post.
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.1.4.
+
+## Installation and running instructions
+
+Clone project code to your local by running below command using Git Bash
+git clone https://github.com/sbharam/infinite-scroll.git 
+
+Once clone successful, go to root directory of project & run below command using windows command prompt 
+npm install
+
+After npm install, run below command on same windows command prompt 
+ng serve or npm start for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
 ## Development server
 
