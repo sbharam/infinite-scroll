@@ -1,0 +1,11 @@
+<div class="card mb-2 w-25 text-center" *ngFor="let post of redditPosts">
+    <div class="card-body">
+        <h5 class="card-title">
+            <a href="{{ post.url }}" target="_blank">
+                {{ post.title }}
+            </a>
+        </h5>
+        <p class="card-text">subreddit: {{ post.subreddit }}</p>
+    </div>
+    <img class="card-img-bottom" [src]="post.thumbnail" alt="reddit thumbnail img" alt="Card image cap">
+</div>
