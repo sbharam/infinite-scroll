@@ -8,13 +8,13 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 ## Installation and running instructions
 
 Clone project code to your local by running below command using Git Bash
-git clone https://github.com/sbharam/infinite-scroll.git 
+- git clone https://github.com/sbharam/infinite-scroll.git 
 
 Once clone successful, go to root directory of project & run below command using windows command prompt 
-npm install
+- npm install
 
 After npm install, run below command on same windows command prompt 
-ng serve or npm start for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+ - ng serve or npm start for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
 ## Development server
 
