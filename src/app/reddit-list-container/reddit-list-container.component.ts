@@ -40,11 +40,7 @@ export class RedditListContainerComponent implements OnInit {
             this.after = redditPostResData.data.after;
             const nextSetOfPosts: Array<RedditPost> = this.formRedditPosts(redditPostResData);
             this.redditPosts = [...this.redditPosts, ...nextSetOfPosts];
-          },
-            error => {
-              console.log(error);
-            }
-          );
+          });
       }
     });
   }
