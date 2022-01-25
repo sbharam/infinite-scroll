@@ -1,0 +1,12 @@
+<div class="ml-2" id="reddit_container">
+    <div *ngIf="!isLoaderVisible">
+        <div *ngFor="let post of redditPosts">
+            <app-reddit-list-item [redditPosts]="redditPosts"></app-reddit-list-item>
+        </div>
+    </div>
+
+    <div *ngIf="isLoaderVisible">
+        <div class="spinner-border" role="status"> </div>
+        <p>Loading...</p>
+    </div>
+</div>
